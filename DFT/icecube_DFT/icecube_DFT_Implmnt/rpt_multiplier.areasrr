@@ -1,0 +1,27 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX8KCM225 (Lattice)
+
+--------------------------------------------------------------------------
+########   Utilization report for  Top level view:   multiplier   ########
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       133                100 %                
+CARRYS     54                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block multiplier:	187 (83.11 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     36                 100 %                
+=================================================
+Total IO PADS in the block multiplier:	36 (16.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

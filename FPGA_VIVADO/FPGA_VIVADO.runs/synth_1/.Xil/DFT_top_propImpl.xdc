@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/CodeRepos/mSDFDFT/FPGA_VIVADO/FPGA_VIVADO.srcs/constrs_1/new/constraints.xdc rfile:../../../FPGA_VIVADO.srcs/constrs_1/new/constraints.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN F14 IOSTANDARD LVCMOS33} [get_ports i_sys_clk]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN J2 IOSTANDARD LVCMOS33} [get_ports i_sys_rst]
+set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN A14 IOSTANDARD LVCMOS33} [get_ports o_done]

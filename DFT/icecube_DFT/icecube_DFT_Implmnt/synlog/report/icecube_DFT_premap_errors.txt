@@ -1,0 +1,1 @@
+@E: BN314 :"z:\documents\github\fpga-closed-loop\dft\dft_top.sv":22:17:22:19|Net GND in work.DFT_top(verilog) has multiple drivers. 

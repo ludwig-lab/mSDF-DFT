@@ -1,0 +1,8 @@
+{
+    "//": "SDFDFT",
+    "DESIGN_NAME": "mSDFDFT",
+    "VERILOG_FILES": "dir::src/*.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk",
+    "PNR_SDC_FILE": "dir::src/spm.sdc"
+}

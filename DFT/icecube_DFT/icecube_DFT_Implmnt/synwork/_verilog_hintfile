@@ -1,0 +1,41 @@
+%%% protect protected_file
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_vhdl.exe":1717431722
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\location.map":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\std.vhd":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\std1164.vhd":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\numeric.vhd":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\arith.vhd":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\unsigned.vhd":1717431725
+#CUR:"Z:\\Documents\\GitHub\\FPGA-closed-loop\\SPI\\ICE_implmt\\spi_slave.vhd":1717252881
+@E8lFkRDC#_bH#PDNCH
+DLssN$FRIsb	
+NlsNCs0CRa7qqQ_1ZH RMo0CCHs
+M0bkR#H_$O#_D-	R4M
+HbRk0H$_###_s04R-
+bHMkH0R_MO#R
+-4HkMb0_RH8NN0R
+-4HkMb0_RHI-sR4M
+HbRk0H8_sR
+-4Fbk0kF0R_08NN4R-
+0FkbRk0FG_0_NsC8-$R4k
+F00bkRsF_GC_sNR8$-F4
+kk0b0_RF0CG_sssFR
+-4Fbk0kF0R__sGCFsss4R-
+bHMkH0R_FObD4R-
+bHMkH0R_EObN4R-
+bHMkH0R_LD#_sVH#-0R4k
+F00bkRlF_HR#F-H4
+M0bkRlH_FR#H-H4
+M0bkR#H_#-MR4M
+HbRk0HO_#D-	R4k
+F00bkR#lHFs_0HM_CR
+-4Fbk0kF0R__0GNRO	-F4
+kk0b0_RF0MG_FO_N	4R-
+8CMlkF8D
+C
+
+
+@ 

@@ -1,0 +1,34 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FPGA_VIVADO.gen/sources_1/ip/xfft_0/sim/xfft_0.vhd" \
+
+vhdl lib_pkg_v1_0_4  \
+"../../../../FPGA_VIVADO.ip_user_files/ipstatic/hdl/lib_pkg_v1_0_rfs.vhd" \
+
+vhdl lib_cdc_v1_0_3  \
+"../../../../FPGA_VIVADO.ip_user_files/ipstatic/hdl/lib_cdc_v1_0_rfs.vhd" \
+
+vhdl lib_srl_fifo_v1_0_4  \
+"../../../../FPGA_VIVADO.ip_user_files/ipstatic/hdl/lib_srl_fifo_v1_0_rfs.vhd" \
+
+vhdl fifo_generator_v13_2_10  \
+"../../../../FPGA_VIVADO.ip_user_files/ipstatic/hdl/fifo_generator_v13_2_rfs.vhd" \
+
+vhdl lib_fifo_v1_0_19  \
+"../../../../FPGA_VIVADO.ip_user_files/ipstatic/hdl/lib_fifo_v1_0_rfs.vhd" \
+
+vhdl axi_lite_ipif_v3_0_4  \
+"../../../../FPGA_VIVADO.ip_user_files/ipstatic/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd" \
+
+vhdl interrupt_control_v3_1_5  \
+"../../../../FPGA_VIVADO.ip_user_files/ipstatic/hdl/interrupt_control_v3_1_vh_rfs.vhd" \
+
+vhdl axi_quad_spi_v3_2_31  \
+"../../../../FPGA_VIVADO.ip_user_files/ipstatic/hdl/axi_quad_spi_v3_2_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../FPGA_VIVADO.gen/sources_1/ip/spi/sim/spi.vhd" \
+"../../../../../DFT/usecase/spi_slave.vhd" \
+
+# Do not sort compile order
+nosort

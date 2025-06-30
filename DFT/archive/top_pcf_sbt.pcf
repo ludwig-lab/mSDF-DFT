@@ -1,0 +1,57 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2020.12.27943
+
+# File Generated:     Jun 11 2024 16:18:47
+
+# Family & Device:    iCE40HX8K
+
+# Package:            CB132
+
+# ##############################################################################
+
+###MergeFF List 1
+set_io_ff o_miso -out OFF
+
+###IOSet List 38
+set_io o_X[18] C3
+set_io o_X[29] L14
+set_io o_X[6] B14
+set_io i_mosi J12
+set_io o_X[11] A10
+set_io o_X[20] B1
+set_io i_rst P8
+set_io o_X[12] A7
+set_io o_X[23] E1
+set_io o_X[31] N14
+set_io o_X[4] D14
+set_io i_sclk G11
+set_io o_X[13] A6
+set_io o_X[22] D1
+set_io o_X[3] E14
+set_io o_X[14] A4
+set_io o_X[2] E12
+set_io o_X[25] K11
+set_io i_ss H11
+set_io o_X[1] F14
+set_io o_X[15] A3
+set_io o_X[24] J11
+set_io o_X[9] C9
+set_io o_X[0] G14
+set_io o_X[16] A2
+set_io o_X[27] K14
+set_io o_X[8] C10
+set_io o_miso H12
+set_io i_ref_clk P7
+set_io o_X[17] A1
+set_io o_X[26] K12
+set_io o_X[7] A12
+set_io o_X[10] A11
+set_io o_X[21] C1
+set_io o_X[19] D3
+set_io o_X[28] L12
+set_io o_X[30] M12
+set_io o_X[5] C14
+

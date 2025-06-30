@@ -1,0 +1,4 @@
+@N: Setting default value for generic data_size to 8;
+@N: CD630 :"Z:\Documents\GitHub\FPGA-closed-loop\SPI\ICE_implmt\spi_slave.vhd":48:7:48:15|Synthesizing work.spi_slave.rtl_arch.
+Post processing for work.spi_slave.rtl_arch
+@W: CL246 :"Z:\Documents\GitHub\FPGA-closed-loop\SPI\ICE_implmt\spi_slave.vhd":55:8:55:13|Input port bits 15 to 8 of i_data(15 downto 0) are unused. Assign logic for all port bits or change the input port size.

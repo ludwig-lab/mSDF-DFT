@@ -1,0 +1,57 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX8KCB132 (Lattice)
+
+------------------------------------------------------------------------
+########   Utilization report for  Top level view:   coefTabl   ########
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     83                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block coefTabl:	83 (9.67 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       537                100 %                
+CARRYS     149                100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block coefTabl:	686 (79.95 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     2                  100 %                
+=================================================
+Total MEMORY ELEMENTS in the block coefTabl:	2 (0.23 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     85                 100 %                
+=================================================
+Total IO PADS in the block coefTabl:	85 (9.91 % Utilization)
+
+#### START OF Block RAM DETAILED REPORT ####
+
+Total Block RAMs: 2
+
+o_c_0__2_0_0
+----------------------------
+----------------------------
+
+o_c_0__2_0_1
+----------------------------
+----------------------------
+
+#### END OF  Block RAM DETAILED REPORT ####
+
+
+##### END OF AREA REPORT #####]
+

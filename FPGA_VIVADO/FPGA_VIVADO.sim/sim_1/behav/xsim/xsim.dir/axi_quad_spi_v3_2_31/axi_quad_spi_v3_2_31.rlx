@@ -1,0 +1,5 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/CodeRepos/mSDFDFT/FPGA_VIVADO/FPGA_VIVADO.ip_user_files/ipstatic/hdl/axi_quad_spi_v3_2_rfs.vhd,1731018700,vhdl,,,,axi_qspi_enhanced_mode;axi_qspi_xip_if;axi_quad_spi;axi_quad_spi_top;comp_defs;counter_f;cross_clk_sync_fifo_0;cross_clk_sync_fifo_1;pselect_f;qspi_address_decoder;qspi_cntrl_reg;qspi_core_interface;qspi_dual_quad_mode;qspi_fifo_ifmodule;qspi_look_up_logic;qspi_mode_0_module;qspi_mode_control_logic;qspi_occupancy_reg;qspi_receive_transmit_reg;qspi_startup_block;qspi_status_slave_sel_reg;reset_sync_module;soft_reset;xip_cntrl_reg;xip_cross_clk_sync;xip_status_reg,,,,,,,,

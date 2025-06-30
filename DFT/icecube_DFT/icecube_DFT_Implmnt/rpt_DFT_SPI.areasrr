@@ -1,0 +1,200 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX8KCB132 (Lattice)
+
+-----------------------------------------------------------------------
+########   Utilization report for  Top level view:   DFT_SPI   ########
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     273                100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block DFT_SPI:	273 (26.48 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       487                100 %                
+CARRYS     132                100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block DFT_SPI:	619 (60.04 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     6                  100 %                
+=================================================
+Total MEMORY ELEMENTS in the block DFT_SPI:	6 (0.58 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     121                100 %                
+=================================================
+Total IO PADS in the block DFT_SPI:	121 (11.74 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DFT_12s_4s_1024s_10s_0s_1s_2s_3s_4s   ########
+Instance path:   DFT_SPI.DFT_12s_4s_1024s_10s_0s_1s_2s_3s_4s                             
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     215                78.8 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block DFT_SPI.DFT_12s_4s_1024s_10s_0s_1s_2s_3s_4s:	215 (20.85 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       454                93.2 %               
+CARRYS     132                100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block DFT_SPI.DFT_12s_4s_1024s_10s_0s_1s_2s_3s_4s:	586 (56.84 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     6                  100 %                
+=================================================
+Total MEMORY ELEMENTS in the block DFT_SPI.DFT_12s_4s_1024s_10s_0s_1s_2s_3s_4s:	6 (0.58 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     5                  4.13 %               
+=================================================
+Total IO PADS in the block DFT_SPI.DFT_12s_4s_1024s_10s_0s_1s_2s_3s_4s:	5 (0.48 % Utilization)
+
+---------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DFT_singleBin_12s_1024s_10s_0s_1s_2s_3s   ########
+Instance path:   DFT_12s_4s_1024s_10s_0s_1s_2s_3s_4s.DFT_singleBin_12s_1024s_10s_0s_1s_2s_3s 
+=============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     89                 32.6 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block DFT_12s_4s_1024s_10s_0s_1s_2s_3s_4s.DFT_singleBin_12s_1024s_10s_0s_1s_2s_3s:	89 (8.63 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       295                60.6 %               
+CARRYS     72                 54.5 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block DFT_12s_4s_1024s_10s_0s_1s_2s_3s_4s.DFT_singleBin_12s_1024s_10s_0s_1s_2s_3s:	367 (35.60 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     6                  100 %                
+=================================================
+Total MEMORY ELEMENTS in the block DFT_12s_4s_1024s_10s_0s_1s_2s_3s_4s.DFT_singleBin_12s_1024s_10s_0s_1s_2s_3s:	6 (0.58 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     2                  1.65 %               
+=================================================
+Total IO PADS in the block DFT_12s_4s_1024s_10s_0s_1s_2s_3s_4s.DFT_singleBin_12s_1024s_10s_0s_1s_2s_3s:	2 (0.19 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   multiplier_12s   ########   
+Instance path:   DFT_singleBin_12s_1024s_10s_0s_1s_2s_3s.multiplier_12s
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       136                27.9 %               
+CARRYS     52                 39.4 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block DFT_singleBin_12s_1024s_10s_0s_1s_2s_3s.multiplier_12s:	188 (18.23 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   SPI_Slave_top   ########
+Instance path:   DFT_SPI.SPI_Slave_top                             
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     43                 15.8 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block DFT_SPI.SPI_Slave_top:	43 (4.17 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     28                 5.75 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block DFT_SPI.SPI_Slave_top:	28 (2.72 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   work_spi_slave_rtl_arch_16_1_DATA_SIZE   ########
+Instance path:   SPI_Slave_top.work_spi_slave_rtl_arch_16_1_DATA_SIZE                       
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     43                 15.8 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block SPI_Slave_top.work_spi_slave_rtl_arch_16_1_DATA_SIZE:	43 (4.17 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     28                 5.75 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block SPI_Slave_top.work_spi_slave_rtl_arch_16_1_DATA_SIZE:	28 (2.72 % Utilization)
+
+#### START OF Block RAM DETAILED REPORT ####
+
+Total Block RAMs: 6
+
+DFT.DFT_singleBin.b_3_0_0
+----------------------------
+----------------------------
+
+DFT.DFT_singleBin.b_3_0_1
+----------------------------
+----------------------------
+
+DFT.DFT_singleBin.b_3_0_2
+----------------------------
+----------------------------
+
+DFT.DFT_singleBin.b_3_0_3
+----------------------------
+----------------------------
+
+DFT.DFT_singleBin.b_3_0_4
+----------------------------
+----------------------------
+
+DFT.DFT_singleBin.b_3_0_5
+----------------------------
+----------------------------
+
+#### END OF  Block RAM DETAILED REPORT ####
+
+
+##### END OF AREA REPORT #####]
+

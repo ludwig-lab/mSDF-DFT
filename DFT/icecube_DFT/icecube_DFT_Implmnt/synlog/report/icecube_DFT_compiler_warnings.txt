@@ -1,0 +1,72 @@
+@W: CG371 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":47:2:47:10|Cannot find data file DFT_coefficient_hex_full.txt for task $readmemh
+@W: CG532 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":44:1:44:7|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_0_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_1_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_2_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_3_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_4_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_5_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_6_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_7_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_8_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_9_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_10_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_11_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_12_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_13_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_14_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_15_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_16_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_17_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_18_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_19_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_20_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_21_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_22_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_23_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_24_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_25_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_26_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_27_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_28_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_29_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_30_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_31_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_32_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_33_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_34_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_35_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_36_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_37_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_38_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_39_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_40_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_41_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_42_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_43_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_44_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_45_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_46_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_47_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_48_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_49_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_50_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_51_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_52_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_53_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_54_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_55_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_56_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_57_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_58_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_59_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_60_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_61_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_62_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Object tabl_63_ is declared but not assigned. Either assign a value or remove the declaration.
+@W:"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":30:24:30:27|Some of the address location in the memory "tabl" are not assigned.
+@W: CL265 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":78:4:78:9|Removing unused bit 31 of index[31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL169 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":78:4:78:9|Pruning unused register index[30:0]. Make sure that there are no unused intermediate registers.
+@W: CG1273 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT_top.sv":26:8:26:10|An input port (port i_N) is the target of an assignment - please check if this is intentional
+@W: CL305 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":78:4:78:9|Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)
+

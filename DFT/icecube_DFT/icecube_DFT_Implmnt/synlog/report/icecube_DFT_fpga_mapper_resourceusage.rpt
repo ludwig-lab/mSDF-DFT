@@ -1,0 +1,30 @@
+---------------------------------------
+Resource Usage Report for DFT_top 
+
+Mapping to part: ice40hx8kcb132
+Cell usage:
+GND             3 uses
+SB_CARRY        113 uses
+SB_DFFN         8 uses
+SB_DFFNE        23 uses
+SB_DFFNESR      408 uses
+SB_DFFNSR       32 uses
+SB_DFFNSS       1 use
+SB_GB           7 uses
+VCC             3 uses
+SB_LUT4         639 uses
+
+I/O ports: 400
+I/O primitives: 400
+SB_GB_IO       1 use
+SB_IO          399 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   472 (6%)
+
+@S |Mapping Summary:
+Total  LUTs: 639 (8%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 639 = 639 
+

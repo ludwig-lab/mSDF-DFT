@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -top  DFT_top  -multisrs  Z:\Documents\GitHub\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\synwork\icecube_DFT_comp.srs  -osyn  Z:\Documents\GitHub\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\synwork\icecube_DFT_mult.srs  -log  Z:\Documents\GitHub\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\synlog\icecube_DFT_multi_srs_gen.srr 
+rc:0 success:1 runtime:1
+file:Z:\Documents\GitHub\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\synwork\icecube_DFT_comp.srs|io:i|time:1719014401|size:11758|exec:0
+file:Z:\Documents\GitHub\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\synwork\icecube_DFT_mult.srs|io:o|time:1719014403|size:4555|exec:0
+file:Z:\Documents\GitHub\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\synlog\icecube_DFT_multi_srs_gen.srr|io:o|time:1719014403|size:539|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1717431721|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1717431723|size:3947520|exec:1

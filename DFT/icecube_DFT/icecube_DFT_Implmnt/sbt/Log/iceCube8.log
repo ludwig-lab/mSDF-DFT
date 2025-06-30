@@ -1,0 +1,7 @@
+2:32:35 PM
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -options "icecube_DFT_syn.prj" 
+starting Synplify_Prorunning Synplify_ProCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+Information : Using arguments of synplify instead, will not check them here.
+Synplify_Pro succeed.
+Synthesis runtime 2131453660 seconds
+3:35:11 PM

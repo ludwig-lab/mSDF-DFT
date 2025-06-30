@@ -1,0 +1,14 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"Z:\Documents\GitHub\FPGA-closed-loop\SPI\ICE_implmt\spi_slave.vhd":48:7:48:15|Top entity is set to spi_slave.
+@N|Running in 64-bit mode
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in System Verilog mode
+@N: CG364 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\multiplier.sv":1:7:1:16|Synthesizing module multiplier in library work.
+@N: CG364 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":1:7:1:9|Synthesizing module DFT in library work.
+@N: CG364 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT_top.sv":1:7:1:13|Synthesizing module DFT_top in library work.
+@N: CL201 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":78:4:78:9|Trying to extract state machine for register state.
+@N: CL159 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv":21:17:21:19|Input i_k is unused.
+@N|Running in 64-bit mode
+

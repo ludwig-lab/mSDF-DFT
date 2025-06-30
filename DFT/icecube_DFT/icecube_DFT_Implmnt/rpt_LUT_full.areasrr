@@ -1,0 +1,27 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX8KCB132 (Lattice)
+
+------------------------------------------------------------------------
+########   Utilization report for  Top level view:   LUT_full   ########
+========================================================================
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       235                100 %                
+CARRYS     12                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block LUT_full:	247 (83.73 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     46                 100 %                
+=================================================
+Total IO PADS in the block LUT_full:	46 (15.59 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

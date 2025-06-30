@@ -1,0 +1,13 @@
+#--  Synopsys, Inc.
+#--  Version L-2016.09L+ice40
+#--  Project file C:\Users\richa\Documents\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_syn.prd
+#--  Written on Wed Jun 12 10:29:21 2024
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

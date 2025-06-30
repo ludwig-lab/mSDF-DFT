@@ -1,0 +1,14 @@
+6:59:19 PM
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -options "icecube_DFT_syn.prj" 
+starting Synplify_Prorunning Synplify_ProCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+Information : Using arguments of synplify instead, will not check them here.
+Synplify_Pro succeed.
+Synthesis runtime 2132420060 seconds
+Current Implementation icecube_DFT_Implmnt its sbt path: Z:/Documents/GitHub/FPGA-closed-loop/DFT/icecube_DFT/icecube_DFT_Implmnt\sbt
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -options "icecube_DFT_syn.prj" 
+starting Synplify_Prorunning Synplify_ProCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+Information : Using arguments of synplify instead, will not check them here.
+Synplify_Pro succeed.
+Synthesis runtime 2132420096 seconds
+Current Implementation icecube_DFT_Implmnt its sbt path: Z:/Documents/GitHub/FPGA-closed-loop/DFT/icecube_DFT/icecube_DFT_Implmnt\sbt
+7:05:01 PM

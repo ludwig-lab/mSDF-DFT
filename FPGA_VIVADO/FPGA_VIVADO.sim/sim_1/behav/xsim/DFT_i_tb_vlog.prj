@@ -1,0 +1,53 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../DFT/DFT.sv" \
+"../../../../../DFT/multiplier.sv" \
+"../../../../../DFT/DFT_top.sv" \
+"../../../../../DFT/goertzel_top.sv" \
+"../../../../../DFT/goertzel_sdf.sv" \
+"../../../../../DFT/goertzel_sdf_ff.sv" \
+"../../../../../DFT/DFT_ff.sv" \
+"../../../../../DFT/DFT_q.sv" \
+"../../../../../DFT/pfTable.sv" \
+"../../../../../DFT/goertzel.sv" \
+"../../../../../DFT/goertzel_sdf_top.sv" \
+"../../../../../DFT/DFT_q_ff.sv" \
+"../../../../../DFT/goertzel_ff.sv" \
+"../../../../../DFT/goertzel_singleBin.sv" \
+
+verilog dist_mem_gen_v8_0_15  \
+"../../../../FPGA_VIVADO.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v" \
+
+verilog fifo_generator_v13_2_10  \
+"../../../../FPGA_VIVADO.ip_user_files/ipstatic/simulation/fifo_generator_vlog_beh.v" \
+"../../../../FPGA_VIVADO.ip_user_files/ipstatic/hdl/fifo_generator_v13_2_rfs.v" \
+
+verilog xil_defaultlib  \
+"../../../../../DFT/usecase/spi_slave_top.v" \
+
+sv xil_defaultlib  \
+"../../../../../DFT/usecase/spi_slave_interface.sv" \
+"../../../../../DFT/usecase/top.sv" \
+"../../../../../DFT/usecase/DFT_LFP.sv" \
+"../../../../../DFT/usecase/bandpower.sv" \
+"../../../../../DFT/usecase/clock.sv" \
+"../../../../../DFT/DFT_ff_i.sv" \
+"../../../../../DFT/multiplier_complex.sv" \
+"../../../../../DFT/DFT_i.sv" \
+"../../../../../DFT/DFT_i_q.sv" \
+"../../../../../DFT/DFT_ff_i_q.sv" \
+"../../../../../DFT/DFT_i_q_n.sv" \
+"../../../../../DFT/testBench/DFT_rcbi_tb.sv" \
+"../../../../../DFT/testBench/DFT_tb.sv" \
+"../../../../../DFT/goertzel_tb.sv" \
+"../../../../../DFT/usecase/spi_slave_interface_tb.sv" \
+"../../../../../DFT/usecase/top_tb.sv" \
+"../../../../../DFT/usecase/bandpower_tb.sv" \
+"../../../../../DFT/testBench/DFT_i_tb.sv" \
+"../../../../../DFT/testBench/DFT_n_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

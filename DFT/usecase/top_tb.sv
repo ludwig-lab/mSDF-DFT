@@ -1,0 +1,655 @@
+`timescale 10ns/1ns
+module top_tb();
+parameter WIDTH = 16;
+parameter BIN_NUM = 29;
+parameter N_MAX = 512;
+parameter LOG_N_MAX = $clog2(N_MAX);
+parameter FRAC_BITS = 4;
+parameter spi_s_width = 16;
+parameter spi_m_width = 16;
+parameter BAND_NUM = 2;
+parameter BETA_STOP = 6;
+
+reg ss, mosi, miso, sck, clk, rst, enable;
+reg signed [spi_m_width - 1:0] data_to_send [0:N_MAX-1];  
+wire [spi_s_width - 1:0] o_data;
+reg [spi_s_width - 1:0] i_data;
+wire o_data_ready,tx_ready;
+
+top#(
+    .WIDTH(WIDTH),
+    .BIN_NUM(BIN_NUM),
+    .N_MAX(N_MAX),
+    .LOG_N_MAX(LOG_N_MAX),
+    .FRAC_BITS(FRAC_BITS),
+    .spi_s_width(spi_s_width),
+    .spi_m_width(spi_m_width),
+    .BAND_NUM(BAND_NUM),
+    .BETA_STOP(BETA_STOP)
+) UUT(
+    .i_sys_clk(clk),
+    .i_sys_rst(rst),
+    .i_mosi(mosi),
+    .o_miso(miso),
+    .i_ss(ss),
+    .i_sclk(sck),
+    .i_enable(enable)
+);
+	
+always #10 clk = ~clk;  // FPGA clock 	
+
+always@(posedge clk) if(o_data_ready) i_data = o_data;
+integer i, j;
+initial begin 
+    ss = 1;
+    //$monitor("time: %t rd: %b",$time,UUT.rd);
+    //$monitor("time: %t s_data: %b",$time,UUT.s_data);
+    //$monitor("time: %t data_ready: %b",$time,UUT.data_ready);
+    //$monitor("time: %t rx_ready: %b",$time,UUT.rx_ready);
+    //$monitor("time: %t o_X: %b",$time,UUT.o_X);
+    //$monitor("time: %t wr: %b",$time,UUT.wr);
+    //$monitor("time: %t DFT_done: %b",$time,UUT.DFT_done);
+    //$monitor("time: %t i_x: %b",$time,UUT.x);
+    $monitor("time: %t beta: %d, gamma: %d",$time,UUT.y[0],UUT.y[1]);
+    $monitor("time: %t bandpower done: %b",$time,UUT.done);
+    $monitor("time: %t DFT done: %b",$time,UUT.bandpower.DFT_done);
+    $monitor("time: %t o_X: %d %d",$time,UUT.bandpower.X_trun[0], UUT.bandpower.X_trun[1]);
+    //$monitor("time: %t tx_ready: %b",$time,UUT.tx_ready);
+    //$monitor("time: %t tx_ready_d: %b",$time,UUT.SPI.tx_ready_d);
+    //$monitor("time: %t state: %b", $time,UUT.state);
+    //$monitor("time: %t tx_buffer: %b",$time,UUT.tx_buffer);
+    //$monitor("time: %t DFT_state: %b",$time,UUT.bandpower.DFT.state);
+    //$monitor("time: %t DFT_n: %b",$time,UUT.bandpower.DFT.n);
+    //$monitor("time: %t data_ready: %b",$time,UUT.data_ready);
+    //$monitor("time: %t clk: %b",$time,UUT.clk);
+    //$monitor("time: %t rx_ready: %b",$time,UUT.SPI.rx_ready);
+    //$monitor("time: %t rx_ready_d: %b",$time,UUT.SPI.rx_ready_d);
+    //$monitor("time: %t csn: %b",$time,UUT.SPI.csn);
+    data_to_send[0] = 2;
+    data_to_send[1] = 1;
+    data_to_send[2] = 2;
+    data_to_send[3] = 1;
+    data_to_send = {
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-3,
+-3,
+-2,
+-2,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-5,
+-5,
+-5,
+-5,
+-5,
+-5,
+-5,
+-5,
+-5,
+-5,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-4,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-3,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-2,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+-1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+1,
+1,
+0,
+1,
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+2,
+2,
+2,
+2,
+2,
+2,
+1,
+1,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+3,
+3,
+2,
+2,
+2,
+2,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+3,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+2,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+0,
+0,
+1,
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+-1,
+-1,
+0,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+-1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+    };
+    
+	sck = 1;
+    rst = 0;
+	clk = 1'b0;
+    #50;
+    rst = 1;
+    #800;
+    rst = 0;
+    #800;
+    enable = 1;
+    
+    for(j = 0; j < N_MAX; j = j + 1)begin
+        ss <= 0;
+        # 157;
+        
+        for(i = 0; i < spi_m_width; i = i + 1)begin	  
+            sck <= 0;
+            mosi <= data_to_send[j][spi_m_width-1-i];
+            # 250;
+            sck <= 1;
+            #250;
+        end	 
+        #82;
+        ss <= 1;
+        #386;	
+    end
+    #3000;
+
+    for(j = 0; j < N_MAX; j = j + 1)begin
+        ss <= 0;
+        # 157;
+        
+        for(i = 0; i < spi_m_width; i = i + 1)begin	  
+            sck <= 0;
+            mosi <= data_to_send[j][spi_m_width-1-i];
+            # 250;
+            sck <= 1;
+            #250;
+        end	 
+        #82;
+        ss <= 1;
+        #386;
+    end
+    #1400;
+    ss = 1;
+    #3000;
+
+    for(j = 0; j < N_MAX; j = j + 1)begin
+        ss <= 0;
+        # 157;
+        
+        for(i = 0; i < spi_m_width; i = i + 1)begin	  
+            sck <= 0;
+            mosi <= data_to_send[j][spi_m_width-1-i];
+            # 250;
+            sck <= 1;
+            #250;
+        end	 
+        #82;
+        ss <= 1;
+        #386;	
+    end
+    #3000;
+    
+    $finish;
+
+end
+
+endmodule 
+	

@@ -1,0 +1,65 @@
+#OPTIONS:"|-mixedhdl|-modhint|Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\icecube_DFT\\icecube_DFT_Implmnt\\synwork\\_verilog_hintfile|-top|DFT_top|-layerid|0|-orig_srs|Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\icecube_DFT\\icecube_DFT_Implmnt\\synwork\\icecube_DFT_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\icecube_DFT\\|-I|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib|-sysv|-devicelib|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-lib|work|-fsysv|-lib|work|-fsysv"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_ver.exe":1717431722
+#CUR:"Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\icecube_DFT\\icecube_DFT_Implmnt\\synwork\\_verilog_hintfile":1718389898
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v":1717431724
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\hypermods.v":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\umr_capim.v":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_objects.v":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1717431725
+#CUR:"Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\multiplier.sv":1718389828
+#CUR:"Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\DFT_singleBin.sv":1718391806
+#CUR:"Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\DFT.sv":1719014212
+#CUR:"Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\coeftabl.sv":1718035455
+#CUR:"Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\DFT_singleBin_e.sv":1718034593
+#CUR:"Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\DFT_SPI.sv":1718390117
+#CUR:"Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\top.sv":1718389828
+#CUR:"Z:\\Documents\\GitHub\\FPGA-closed-loop\\SPI\\ICE_implmt\\spi_slave_top.v":1718389828
+#CUR:"Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\top_test.sv":1718389828
+#CUR:"Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\DFT_top.sv":1719014212
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"Z:\Documents\GitHub\FPGA-closed-loop\DFT\multiplier.sv" verilog
+1			"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT_singleBin.sv" verilog
+2			"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT.sv" verilog
+3			"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.sv" verilog
+4			"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT_singleBin_e.sv" verilog
+5			"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT_SPI.sv" verilog
+6			"Z:\Documents\GitHub\FPGA-closed-loop\DFT\top.sv" verilog
+7			"Z:\Documents\GitHub\FPGA-closed-loop\SPI\ICE_implmt\spi_slave_top.v" verilog
+8			"Z:\Documents\GitHub\FPGA-closed-loop\DFT\top_test.sv" verilog
+9			"Z:\Documents\GitHub\FPGA-closed-loop\DFT\DFT_top.sv" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 0
+3 -1
+4 0 3
+5 2 7
+6 5
+7 -1
+8 1
+9 2
+#Dependency Lists(Users Of)
+0 1 2 4
+1 8
+2 5 9
+3 4
+4 -1
+5 6
+6 -1
+7 5
+8 -1
+9 -1
+#Design Unit to File Association
+module work multiplier 0
+module work DFT_singleBin 1
+module work DFT 2
+module work coefTabl 3
+module work DFT_singleBin_e 4
+module work SPI_Slave_top 7
+module work DFT_SPI 5
+module work top 6
+module work top_test 8
+module work DFT_top 9
+#Unbound instances to file Association.
+inst work SPI_Slave_top spi_slave 7

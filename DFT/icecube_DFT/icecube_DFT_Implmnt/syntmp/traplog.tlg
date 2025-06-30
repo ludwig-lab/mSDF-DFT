@@ -1,0 +1,67 @@
+@N: CD630 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\syntmp\gentmp5344a11768":4:7:4:9|Synthesizing work.top.gen.
+@N: CD630 :"syng0a11768":696:7:696:11|Synthesizing work.smult.cell_level.
+@W: CD638 :"syng0a11768":751:8:751:13|Signal result is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"syng0a11768":523:7:523:15|Synthesizing work.smallmult.arch1.
+@N: CD630 :"syng0a11768":319:7:319:16|Synthesizing work.addertree2.arch1.
+@N: CD630 :"syng0a11768":163:7:163:11|Synthesizing work.floor.arch1.
+@N: CD630 :"syng0a11768":58:10:58:16|Synthesizing work.pipebuf.syn_black_box.
+Post processing for work.pipebuf.syn_black_box
+@N: CD630 :"syng0a11768":81:7:81:12|Synthesizing work.addreg.arch1.
+Post processing for work.addreg.arch1
+Post processing for work.floor.arch1
+@N: CD630 :"syng0a11768":163:7:163:11|Synthesizing work.floor.arch1.
+@N: CD630 :"syng0a11768":81:7:81:12|Synthesizing work.addreg.arch1.
+Post processing for work.addreg.arch1
+Post processing for work.floor.arch1
+@N: CD630 :"syng0a11768":163:7:163:11|Synthesizing work.floor.arch1.
+@N: CD630 :"syng0a11768":81:7:81:12|Synthesizing work.addreg.arch1.
+Post processing for work.addreg.arch1
+@N: CD630 :"syng0a11768":81:7:81:12|Synthesizing work.addreg.arch1.
+Post processing for work.addreg.arch1
+@N: CD630 :"syng0a11768":81:7:81:12|Synthesizing work.addreg.arch1.
+Post processing for work.addreg.arch1
+Post processing for work.floor.arch1
+@N: CD630 :"syng0a11768":163:7:163:11|Synthesizing work.floor.arch1.
+@N: CD630 :"syng0a11768":81:7:81:12|Synthesizing work.addreg.arch1.
+Post processing for work.addreg.arch1
+@N: CD630 :"syng0a11768":81:7:81:12|Synthesizing work.addreg.arch1.
+Post processing for work.addreg.arch1
+@N: CD630 :"syng0a11768":81:7:81:12|Synthesizing work.addreg.arch1.
+Post processing for work.addreg.arch1
+@N: CD630 :"syng0a11768":81:7:81:12|Synthesizing work.addreg.arch1.
+Post processing for work.addreg.arch1
+@N: CD630 :"syng0a11768":81:7:81:12|Synthesizing work.addreg.arch1.
+Post processing for work.addreg.arch1
+@N: CD630 :"syng0a11768":81:7:81:12|Synthesizing work.addreg.arch1.
+Post processing for work.addreg.arch1
+Post processing for work.floor.arch1
+Post processing for work.addertree2.arch1
+@N: CD630 :"syng0a11768":17:7:17:19|Synthesizing work.firstproducts.arch1.
+@W: CD638 :"syng0a11768":32:10:32:14|Signal a_aux is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"syng0a11768":33:10:33:14|Signal b_aux is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.firstproducts.arch1
+Post processing for work.smallmult.arch1
+Post processing for work.smult.cell_level
+Post processing for work.top.gen
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 297 to 287 of input(311 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 270 to 260 of input(311 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 243 to 235 of input(311 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 216 to 208 of input(311 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 189 to 183 of input(311 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 162 to 156 of input(311 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 135 to 131 of input(311 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 108 to 104 of input(311 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 81 to 79 of input(311 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 54 to 52 of input(311 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"syng0a11768":172:4:172:8|Input port bit 27 of input(311 downto 0) is unused 
+@W: CL247 :"syng0a11768":172:4:172:8|Input port bit 0 of input(311 downto 0) is unused 
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 140 to 131 of input(155 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 112 to 104 of input(155 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 84 to 79 of input(155 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 56 to 52 of input(155 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 28 to 27 of input(155 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"syng0a11768":172:4:172:8|Input port bit 0 of input(155 downto 0) is unused 
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 30 to 27 of input(77 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"syng0a11768":172:4:172:8|Input port bit 0 of input(77 downto 0) is unused 
+@W: CL246 :"syng0a11768":172:4:172:8|Input port bits 34 to 27 of input(51 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"syng0a11768":172:4:172:8|Input port bit 0 of input(51 downto 0) is unused 

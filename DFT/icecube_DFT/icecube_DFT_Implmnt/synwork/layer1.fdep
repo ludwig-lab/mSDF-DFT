@@ -1,0 +1,29 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.spi_slave|-mpparams|Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\icecube_DFT\\icecube_DFT_Implmnt\\synwork\\_mh_params|-layerid|1|-orig_srs|Z:\\Documents\\GitHub\\FPGA-closed-loop\\DFT\\icecube_DFT\\icecube_DFT_Implmnt\\synwork\\icecube_DFT_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_vhdl.exe":1717431722
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\location.map":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\std.vhd":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\std1164.vhd":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\numeric.vhd":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\arith.vhd":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\unsigned.vhd":1717431725
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\hyperents.vhd":1717431725
+#CUR:"Z:\\Documents\\GitHub\\FPGA-closed-loop\\SPI\\ICE_implmt\\spi_slave.vhd":1717252881
+0 "Z:\Documents\GitHub\FPGA-closed-loop\SPI\ICE_implmt\spi_slave.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work spi_slave rtl_arch 0
+module work spi_slave 0
+
+# Unbound Instances to File Association
+
+
+# Configuration files used

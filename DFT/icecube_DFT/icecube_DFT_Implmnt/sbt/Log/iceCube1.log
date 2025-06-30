@@ -1,0 +1,949 @@
+10:26:46 AM
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "icecube_DFT_syn.prj" -log "icecube_DFT_Implmnt/icecube_DFT.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of icecube_DFT_Implmnt/icecube_DFT.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: RICHARDYANG61C6
+
+# Tue Jun 04 10:27:06 2024
+
+#Implementation: icecube_DFT_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N:: Running Verilog Compiler in System Verilog mode
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module coefTabl
+@N: CG364 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":1:7:1:14|Synthesizing module coefTabl in library work.
+
+@W: CG371 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":28:8:28:16|Cannot find data file DFT_coefficient_hex.txt for task $readmemh
+@W: CG532 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":27:4:27:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_0_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_1_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_2_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_3_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_4_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_5_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_6_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_7_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_8_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_9_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_10_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_11_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_12_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_13_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_14_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Object tabl_15_ is declared but not assigned. Either assign a value or remove the declaration.
+@W:"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":24:27:24:30|Some of the address location in the memory "tabl" are not assigned.
+@W: CL169 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":39:4:39:9|Pruning unused register index[0:15]. Make sure that there are no unused intermediate registers.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jun 04 10:27:09 2024
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":1:7:1:14|Selected library: work cell: coefTabl view verilog as top level
+@N: NF107 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":1:7:1:14|Selected library: work cell: coefTabl view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jun 04 10:27:11 2024
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jun 04 10:27:11 2024
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\richa\Documents\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\synwork\icecube_DFT_comp.srs changed - recompiling
+@N: NF107 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":1:7:1:14|Selected library: work cell: coefTabl view verilog as top level
+@N: NF107 :"Z:\Documents\GitHub\FPGA-closed-loop\DFT\coeftabl.v":1:7:1:14|Selected library: work cell: coefTabl view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jun 04 10:27:12 2024
+
+###########################################################]
+Pre-mapping Report
+
+# Tue Jun 04 10:27:14 2024
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: Z:\Documents\GitHub\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\icecube_DFT_scck.rpt 
+Printing clock  summary report in "Z:\Documents\GitHub\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\icecube_DFT_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=30  set on top level netlist coefTabl
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start                  Requested     Requested     Clock        Clock                     Clock
+Clock                  Frequency     Period        Type         Group                     Load 
+-----------------------------------------------------------------------------------------------
+coefTabl|i_sys_clk     107.2 MHz     9.332         inferred     Autoconstr_clkgroup_0     54   
+===============================================================================================
+
+@W: MT529 :"z:\documents\github\fpga-closed-loop\dft\coeftabl.v":39:4:39:9|Found inferred clock coefTabl|i_sys_clk which controls 54 sequential elements including temp[0:15]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file Z:\Documents\GitHub\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\icecube_DFT.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jun 04 10:27:14 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Tue Jun 04 10:27:14 2024
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 139MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 139MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 139MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 139MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 139MB)
+
+@N: BN362 :"z:\documents\github\fpga-closed-loop\dft\coeftabl.v":39:4:39:9|Removing sequential instance temp[13] (in view: work.coefTabl(verilog)) because it does not drive other instances.
+@N: BN362 :"z:\documents\github\fpga-closed-loop\dft\coeftabl.v":39:4:39:9|Removing sequential instance temp[14] (in view: work.coefTabl(verilog)) because it does not drive other instances.
+@N: BN362 :"z:\documents\github\fpga-closed-loop\dft\coeftabl.v":39:4:39:9|Removing sequential instance temp[15] (in view: work.coefTabl(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 139MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 145MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -3.16ns		 184 /        51
+   2		0h:00m:00s		    -3.16ns		 172 /        51
+   3		0h:00m:00s		    -2.39ns		 172 /        51
+   4		0h:00m:00s		    -2.39ns		 173 /        51
+
+   5		0h:00m:01s		    -2.39ns		 199 /        51
+   6		0h:00m:01s		    -2.39ns		 199 /        51
+   7		0h:00m:01s		    -2.39ns		 200 /        51
+
+
+   8		0h:00m:01s		    -2.39ns		 201 /        51
+@N: FX1016 :"z:\documents\github\fpga-closed-loop\dft\coeftabl.v":17:10:17:18|SB_GB_IO inserted on the port i_sys_clk.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 152MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 152MB peak: 152MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 51 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================== Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element          Drive Element Type     Fanout     Sample Instance
+--------------------------------------------------------------------------------------------
+@K:CKID0001       i_sys_clk_ibuf_gb_io     SB_GB_IO               51         o_c_1_[10]     
+============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 123MB peak: 152MB)
+
+Writing Analyst data base Z:\Documents\GitHub\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\synwork\icecube_DFT_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 149MB peak: 152MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: Z:\Documents\GitHub\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\icecube_DFT.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 150MB peak: 152MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 149MB peak: 152MB)
+
+@W: MT246 :"z:\documents\github\fpga-closed-loop\dft\coeftabl.v":49:20:49:29|Blackbox SB_MAC16 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock coefTabl|i_sys_clk with period 10.72ns. Please declare a user-defined clock on object "p:i_sys_clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Jun 04 10:27:17 2024
+#
+
+
+Top view:               coefTabl
+Requested Frequency:    93.3 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.892
+
+                       Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock         Frequency     Frequency     Period        Period        Slack      Type         Group                
+----------------------------------------------------------------------------------------------------------------------------
+coefTabl|i_sys_clk     93.3 MHz      79.3 MHz      10.719        12.611        -1.892     inferred     Autoconstr_clkgroup_0
+System                 1.0 MHz       1.0 MHz       1000.000      1001.519      -1.519     system       system_clkgroup      
+============================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                  |    rise  to  rise   |    fall  to  fall    |    rise  to  fall    |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------
+Starting            Ending              |  constraint  slack  |  constraint  slack   |  constraint  slack   |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------
+System              coefTabl|i_sys_clk  |  No paths    -      |  No paths    -       |  10.719      -1.519  |  No paths    -    
+coefTabl|i_sys_clk  coefTabl|i_sys_clk  |  No paths    -      |  10.719      -1.892  |  No paths    -       |  No paths    -    
+================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: coefTabl|i_sys_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+               Starting                                                    Arrival           
+Instance       Reference              Type          Pin     Net            Time        Slack 
+               Clock                                                                         
+---------------------------------------------------------------------------------------------
+temp[5]        coefTabl|i_sys_clk     SB_DFFN       Q       temp[5]        0.796       -1.892
+temp[1]        coefTabl|i_sys_clk     SB_DFFN       Q       temp[1]        0.796       -1.881
+temp[6]        coefTabl|i_sys_clk     SB_DFFN       Q       temp[6]        0.796       -1.881
+quarter[0]     coefTabl|i_sys_clk     SB_DFFNSR     Q       quarter[0]     0.796       -1.861
+quarter[1]     coefTabl|i_sys_clk     SB_DFFNSR     Q       quarter[1]     0.796       -1.850
+temp[7]        coefTabl|i_sys_clk     SB_DFFN       Q       temp[7]        0.796       -1.840
+temp[8]        coefTabl|i_sys_clk     SB_DFFN       Q       temp[8]        0.796       -1.840
+temp[2]        coefTabl|i_sys_clk     SB_DFFN       Q       temp[2]        0.796       -1.809
+state[2]       coefTabl|i_sys_clk     SB_DFFN       Q       state[2]       0.796       -1.809
+temp[3]        coefTabl|i_sys_clk     SB_DFFN       Q       temp[3]        0.796       -1.778
+=============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                                    Required           
+Instance     Reference              Type        Pin     Net              Time         Slack 
+             Clock                                                                          
+--------------------------------------------------------------------------------------------
+temp[12]     coefTabl|i_sys_clk     SB_DFFN     D       temp_RNO[12]     10.564       -1.892
+temp[4]      coefTabl|i_sys_clk     SB_DFFN     D       N_36             10.564       -1.747
+temp[5]      coefTabl|i_sys_clk     SB_DFFN     D       N_38             10.564       -1.705
+temp[6]      coefTabl|i_sys_clk     SB_DFFN     D       N_40             10.564       -1.705
+temp[0]      coefTabl|i_sys_clk     SB_DFFN     D       N_104_0_i        10.564       -1.664
+temp[1]      coefTabl|i_sys_clk     SB_DFFN     D       N_113_0_i        10.564       -1.664
+temp[2]      coefTabl|i_sys_clk     SB_DFFN     D       N_48             10.564       -1.664
+temp[3]      coefTabl|i_sys_clk     SB_DFFN     D       N_34             10.564       -1.664
+temp[7]      coefTabl|i_sys_clk     SB_DFFN     D       N_42             10.564       -1.664
+temp[8]      coefTabl|i_sys_clk     SB_DFFN     D       temp_RNO[8]      10.564       -1.664
+============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.719
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.564
+
+    - Propagation time:                      12.456
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.892
+
+    Number of logic level(s):                5
+    Starting point:                          temp[5] / Q
+    Ending point:                            temp[12] / D
+    The start point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+    The end   point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+temp[5]               SB_DFFN     Q        Out     0.796     0.796       -         
+temp[5]               Net         -        -       1.599     -           4         
+temp_RNIC2MF1[5]      SB_LUT4     I0       In      -         2.395       -         
+temp_RNIC2MF1[5]      SB_LUT4     O        Out     0.569     2.963       -         
+temp_RNIC2MF1[5]      Net         -        -       1.371     -           1         
+temp_RNIBE6K5[4]      SB_LUT4     I0       In      -         4.334       -         
+temp_RNIBE6K5[4]      SB_LUT4     O        Out     0.661     4.996       -         
+temp_RNIBE6K5[4]      Net         -        -       1.371     -           1         
+state_RNIN204A[0]     SB_LUT4     I1       In      -         6.367       -         
+state_RNIN204A[0]     SB_LUT4     O        Out     0.589     6.956       -         
+N_225_mux             Net         -        -       1.371     -           13        
+temp_RNO_0[12]        SB_LUT4     I0       In      -         8.327       -         
+temp_RNO_0[12]        SB_LUT4     O        Out     0.661     8.989       -         
+i47_mux               Net         -        -       1.371     -           1         
+temp_RNO[12]          SB_LUT4     I1       In      -         10.360      -         
+temp_RNO[12]          SB_LUT4     O        Out     0.589     10.949      -         
+temp_RNO[12]          Net         -        -       1.507     -           1         
+temp[12]              SB_DFFN     D        In      -         12.456      -         
+===================================================================================
+Total path delay (propagation time + setup) of 12.611 is 4.021(31.9%) logic and 8.590(68.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.719
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.564
+
+    - Propagation time:                      12.445
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.881
+
+    Number of logic level(s):                5
+    Starting point:                          temp[1] / Q
+    Ending point:                            temp[12] / D
+    The start point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+    The end   point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+temp[1]               SB_DFFN     Q        Out     0.796     0.796       -         
+temp[1]               Net         -        -       1.599     -           3         
+temp_RNIGR1S1[11]     SB_LUT4     I0       In      -         2.395       -         
+temp_RNIGR1S1[11]     SB_LUT4     O        Out     0.661     3.056       -         
+state19lto14_7        Net         -        -       1.371     -           2         
+temp_RNIBE6K5[4]      SB_LUT4     I1       In      -         4.427       -         
+temp_RNIBE6K5[4]      SB_LUT4     O        Out     0.558     4.986       -         
+temp_RNIBE6K5[4]      Net         -        -       1.371     -           1         
+state_RNIN204A[0]     SB_LUT4     I1       In      -         6.356       -         
+state_RNIN204A[0]     SB_LUT4     O        Out     0.589     6.946       -         
+N_225_mux             Net         -        -       1.371     -           13        
+temp_RNO_0[12]        SB_LUT4     I0       In      -         8.317       -         
+temp_RNO_0[12]        SB_LUT4     O        Out     0.661     8.978       -         
+i47_mux               Net         -        -       1.371     -           1         
+temp_RNO[12]          SB_LUT4     I1       In      -         10.349      -         
+temp_RNO[12]          SB_LUT4     O        Out     0.589     10.938      -         
+temp_RNO[12]          Net         -        -       1.507     -           1         
+temp[12]              SB_DFFN     D        In      -         12.445      -         
+===================================================================================
+Total path delay (propagation time + setup) of 12.600 is 4.010(31.8%) logic and 8.590(68.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.719
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.564
+
+    - Propagation time:                      12.445
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.881
+
+    Number of logic level(s):                5
+    Starting point:                          temp[6] / Q
+    Ending point:                            temp[12] / D
+    The start point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+    The end   point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+temp[6]               SB_DFFN     Q        Out     0.796     0.796       -         
+temp[6]               Net         -        -       1.599     -           4         
+temp_RNIC2MF1[5]      SB_LUT4     I1       In      -         2.395       -         
+temp_RNIC2MF1[5]      SB_LUT4     O        Out     0.558     2.953       -         
+temp_RNIC2MF1[5]      Net         -        -       1.371     -           1         
+temp_RNIBE6K5[4]      SB_LUT4     I0       In      -         4.324       -         
+temp_RNIBE6K5[4]      SB_LUT4     O        Out     0.661     4.986       -         
+temp_RNIBE6K5[4]      Net         -        -       1.371     -           1         
+state_RNIN204A[0]     SB_LUT4     I1       In      -         6.356       -         
+state_RNIN204A[0]     SB_LUT4     O        Out     0.589     6.946       -         
+N_225_mux             Net         -        -       1.371     -           13        
+temp_RNO_0[12]        SB_LUT4     I0       In      -         8.317       -         
+temp_RNO_0[12]        SB_LUT4     O        Out     0.661     8.978       -         
+i47_mux               Net         -        -       1.371     -           1         
+temp_RNO[12]          SB_LUT4     I1       In      -         10.349      -         
+temp_RNO[12]          SB_LUT4     O        Out     0.589     10.938      -         
+temp_RNO[12]          Net         -        -       1.507     -           1         
+temp[12]              SB_DFFN     D        In      -         12.445      -         
+===================================================================================
+Total path delay (propagation time + setup) of 12.600 is 4.010(31.8%) logic and 8.590(68.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.719
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.564
+
+    - Propagation time:                      12.425
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.861
+
+    Number of logic level(s):                5
+    Starting point:                          quarter[0] / Q
+    Ending point:                            temp[12] / D
+    The start point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+    The end   point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                   Type          Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+quarter[0]             SB_DFFNSR     Q        Out     0.796     0.796       -         
+quarter[0]             Net           -        -       1.599     -           7         
+quarter_RNI4HBV[0]     SB_LUT4       I0       In      -         2.395       -         
+quarter_RNI4HBV[0]     SB_LUT4       O        Out     0.569     2.963       -         
+N_11_0                 Net           -        -       1.371     -           2         
+state_RNI7IUV1[0]      SB_LUT4       I0       In      -         4.334       -         
+state_RNI7IUV1[0]      SB_LUT4       O        Out     0.661     4.996       -         
+state_RNI7IUV1[0]      Net           -        -       1.371     -           1         
+state_RNIN204A[0]      SB_LUT4       I2       In      -         6.367       -         
+state_RNIN204A[0]      SB_LUT4       O        Out     0.558     6.925       -         
+N_225_mux              Net           -        -       1.371     -           13        
+temp_RNO_0[12]         SB_LUT4       I0       In      -         8.296       -         
+temp_RNO_0[12]         SB_LUT4       O        Out     0.661     8.957       -         
+i47_mux                Net           -        -       1.371     -           1         
+temp_RNO[12]           SB_LUT4       I1       In      -         10.329      -         
+temp_RNO[12]           SB_LUT4       O        Out     0.589     10.918      -         
+temp_RNO[12]           Net           -        -       1.507     -           1         
+temp[12]               SB_DFFN       D        In      -         12.425      -         
+======================================================================================
+Total path delay (propagation time + setup) of 12.580 is 3.990(31.7%) logic and 8.590(68.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.719
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.564
+
+    - Propagation time:                      12.414
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.850
+
+    Number of logic level(s):                5
+    Starting point:                          quarter[1] / Q
+    Ending point:                            temp[12] / D
+    The start point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+    The end   point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                   Type          Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+quarter[1]             SB_DFFNSR     Q        Out     0.796     0.796       -         
+quarter[1]             Net           -        -       1.599     -           9         
+quarter_RNI4HBV[0]     SB_LUT4       I1       In      -         2.395       -         
+quarter_RNI4HBV[0]     SB_LUT4       O        Out     0.558     2.953       -         
+N_11_0                 Net           -        -       1.371     -           2         
+state_RNI7IUV1[0]      SB_LUT4       I0       In      -         4.324       -         
+state_RNI7IUV1[0]      SB_LUT4       O        Out     0.661     4.986       -         
+state_RNI7IUV1[0]      Net           -        -       1.371     -           1         
+state_RNIN204A[0]      SB_LUT4       I2       In      -         6.356       -         
+state_RNIN204A[0]      SB_LUT4       O        Out     0.558     6.915       -         
+N_225_mux              Net           -        -       1.371     -           13        
+temp_RNO_0[12]         SB_LUT4       I0       In      -         8.286       -         
+temp_RNO_0[12]         SB_LUT4       O        Out     0.661     8.947       -         
+i47_mux                Net           -        -       1.371     -           1         
+temp_RNO[12]           SB_LUT4       I1       In      -         10.318      -         
+temp_RNO[12]           SB_LUT4       O        Out     0.589     10.907      -         
+temp_RNO[12]           Net           -        -       1.507     -           1         
+temp[12]               SB_DFFN       D        In      -         12.414      -         
+======================================================================================
+Total path delay (propagation time + setup) of 12.569 is 3.979(31.7%) logic and 8.590(68.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                            Arrival           
+Instance                   Reference     Type         Pin       Net            Time        Slack 
+                           Clock                                                                 
+-------------------------------------------------------------------------------------------------
+temp_1_mulonly_0[15:0]     System        SB_MAC16     O[5]      temp_1[5]      0.000       -1.519
+temp_1_mulonly_0[15:0]     System        SB_MAC16     O[4]      temp_1[4]      0.000       -1.488
+temp_1_mulonly_0[15:0]     System        SB_MAC16     O[1]      temp_1[1]      0.000       -1.478
+temp_1_mulonly_0[15:0]     System        SB_MAC16     O[3]      temp_1[3]      0.000       -1.446
+temp_1_mulonly_0[15:0]     System        SB_MAC16     O[7]      temp_1[7]      0.000       -1.426
+temp_1_mulonly_0[15:0]     System        SB_MAC16     O[12]     temp_1[12]     0.000       -1.415
+temp_1_mulonly_0[15:0]     System        SB_MAC16     O[0]      temp_1[0]      0.000       -1.415
+temp_1_mulonly_0[15:0]     System        SB_MAC16     O[6]      temp_1[6]      0.000       -1.395
+temp_1_mulonly_0[15:0]     System        SB_MAC16     O[2]      temp_1[2]      0.000       -1.374
+temp_1_mulonly_0[15:0]     System        SB_MAC16     O[10]     temp_1[10]     0.000       -1.374
+=================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                          Required           
+Instance     Reference     Type        Pin     Net             Time         Slack 
+             Clock                                                                
+----------------------------------------------------------------------------------
+temp[3]      System        SB_DFFN     D       N_34            10.564       -1.519
+temp[0]      System        SB_DFFN     D       N_104_0_i       10.564       -1.488
+temp[1]      System        SB_DFFN     D       N_113_0_i       10.564       -1.415
+temp[2]      System        SB_DFFN     D       N_48            10.564       -1.374
+temp[5]      System        SB_DFFN     D       N_38            10.564       0.410 
+temp[4]      System        SB_DFFN     D       N_36            10.564       0.483 
+temp[7]      System        SB_DFFN     D       N_42            10.564       0.503 
+temp[6]      System        SB_DFFN     D       N_40            10.564       0.514 
+temp[8]      System        SB_DFFN     D       temp_RNO[8]     10.564       0.607 
+temp[9]      System        SB_DFFN     D       N_26            10.564       0.607 
+==================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.719
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.564
+
+    - Propagation time:                      12.083
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.519
+
+    Number of logic level(s):                6
+    Starting point:                          temp_1_mulonly_0[15:0] / O[5]
+    Ending point:                            temp[3] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+temp_1_mulonly_0[15:0]     SB_MAC16     O[5]     Out     0.000     0.000       -         
+temp_1[5]                  Net          -        -       0.000     -           4         
+temp_RNO_10[3]             SB_LUT4      I2       In      -         0.000       -         
+temp_RNO_10[3]             SB_LUT4      O        Out     0.558     0.558       -         
+g0_13_1                    Net          -        -       1.371     -           1         
+temp_RNO_9[3]              SB_LUT4      I0       In      -         1.929       -         
+temp_RNO_9[3]              SB_LUT4      O        Out     0.661     2.591       -         
+N_38_0                     Net          -        -       1.371     -           1         
+temp_RNO_4[3]              SB_LUT4      I0       In      -         3.962       -         
+temp_RNO_4[3]              SB_LUT4      O        Out     0.661     4.623       -         
+N_42_0                     Net          -        -       1.371     -           1         
+temp_RNO_2[3]              SB_LUT4      I0       In      -         5.994       -         
+temp_RNO_2[3]              SB_LUT4      O        Out     0.661     6.656       -         
+g0_5_mb_1                  Net          -        -       1.371     -           1         
+temp_RNO_0[3]              SB_LUT4      I1       In      -         8.027       -         
+temp_RNO_0[3]              SB_LUT4      O        Out     0.589     8.616       -         
+m44_1                      Net          -        -       1.371     -           1         
+temp_RNO[3]                SB_LUT4      I1       In      -         9.987       -         
+temp_RNO[3]                SB_LUT4      O        Out     0.589     10.576      -         
+N_34                       Net          -        -       1.507     -           1         
+temp[3]                    SB_DFFN      D        In      -         12.083      -         
+=========================================================================================
+Total path delay (propagation time + setup) of 12.238 is 3.876(31.7%) logic and 8.362(68.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.719
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.564
+
+    - Propagation time:                      12.052
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.488
+
+    Number of logic level(s):                6
+    Starting point:                          temp_1_mulonly_0[15:0] / O[4]
+    Ending point:                            temp[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+temp_1_mulonly_0[15:0]      SB_MAC16     O[4]     Out     0.000     0.000       -         
+temp_1[4]                   Net          -        -       0.000     -           3         
+i_N_ibuf_RNI99H01_0[14]     SB_LUT4      I2       In      -         0.000       -         
+i_N_ibuf_RNI99H01_0[14]     SB_LUT4      O        Out     0.558     0.558       -         
+m54_ns_1                    Net          -        -       1.371     -           1         
+i_N_ibuf_RNIQEBK1[15]       SB_LUT4      I1       In      -         1.929       -         
+i_N_ibuf_RNIQEBK1[15]       SB_LUT4      O        Out     0.589     2.518       -         
+N_55_0                      Net          -        -       1.371     -           3         
+temp_RNO_3[0]               SB_LUT4      I0       In      -         3.889       -         
+temp_RNO_3[0]               SB_LUT4      O        Out     0.661     4.551       -         
+m101_ns_1                   Net          -        -       1.371     -           1         
+temp_RNO_2[0]               SB_LUT4      I2       In      -         5.922       -         
+temp_RNO_2[0]               SB_LUT4      O        Out     0.558     6.480       -         
+N_102_0                     Net          -        -       1.371     -           1         
+temp_RNO_0[0]               SB_LUT4      I0       In      -         7.851       -         
+temp_RNO_0[0]               SB_LUT4      O        Out     0.661     8.512       -         
+N_104_0_i_1                 Net          -        -       1.371     -           1         
+temp_RNO[0]                 SB_LUT4      I0       In      -         9.883       -         
+temp_RNO[0]                 SB_LUT4      O        Out     0.661     10.545      -         
+N_104_0_i                   Net          -        -       1.507     -           1         
+temp[0]                     SB_DFFN      D        In      -         12.052      -         
+==========================================================================================
+Total path delay (propagation time + setup) of 12.207 is 3.845(31.5%) logic and 8.362(68.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.719
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.564
+
+    - Propagation time:                      12.042
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.478
+
+    Number of logic level(s):                6
+    Starting point:                          temp_1_mulonly_0[15:0] / O[1]
+    Ending point:                            temp[3] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+temp_1_mulonly_0[15:0]      SB_MAC16     O[1]     Out     0.000     0.000       -         
+temp_1[1]                   Net          -        -       0.000     -           7         
+i_N_ibuf_RNIG4QJ_4[14]      SB_LUT4      I1       In      -         0.000       -         
+i_N_ibuf_RNIG4QJ_4[14]      SB_LUT4      O        Out     0.589     0.589       -         
+N_26_0_1                    Net          -        -       1.371     -           1         
+i_N_ibuf_RNIPDBK1_0[15]     SB_LUT4      I0       In      -         1.960       -         
+i_N_ibuf_RNIPDBK1_0[15]     SB_LUT4      O        Out     0.661     2.622       -         
+N_30_0_1                    Net          -        -       1.371     -           2         
+temp_RNO_5[3]               SB_LUT4      I0       In      -         3.993       -         
+temp_RNO_5[3]               SB_LUT4      O        Out     0.661     4.654       -         
+temp_RNO_5[3]               Net          -        -       1.371     -           1         
+temp_RNO_2[3]               SB_LUT4      I1       In      -         6.025       -         
+temp_RNO_2[3]               SB_LUT4      O        Out     0.589     6.614       -         
+g0_5_mb_1                   Net          -        -       1.371     -           1         
+temp_RNO_0[3]               SB_LUT4      I1       In      -         7.985       -         
+temp_RNO_0[3]               SB_LUT4      O        Out     0.589     8.575       -         
+m44_1                       Net          -        -       1.371     -           1         
+temp_RNO[3]                 SB_LUT4      I1       In      -         9.946       -         
+temp_RNO[3]                 SB_LUT4      O        Out     0.589     10.535      -         
+N_34                        Net          -        -       1.507     -           1         
+temp[3]                     SB_DFFN      D        In      -         12.042      -         
+==========================================================================================
+Total path delay (propagation time + setup) of 12.197 is 3.835(31.4%) logic and 8.362(68.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.719
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.564
+
+    - Propagation time:                      12.011
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.447
+
+    Number of logic level(s):                6
+    Starting point:                          temp_1_mulonly_0[15:0] / O[3]
+    Ending point:                            temp[3] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+temp_1_mulonly_0[15:0]      SB_MAC16     O[3]     Out     0.000     0.000       -         
+temp_1[3]                   Net          -        -       0.000     -           4         
+i_N_ibuf_RNIG4QJ_4[14]      SB_LUT4      I2       In      -         0.000       -         
+i_N_ibuf_RNIG4QJ_4[14]      SB_LUT4      O        Out     0.558     0.558       -         
+N_26_0_1                    Net          -        -       1.371     -           1         
+i_N_ibuf_RNIPDBK1_0[15]     SB_LUT4      I0       In      -         1.929       -         
+i_N_ibuf_RNIPDBK1_0[15]     SB_LUT4      O        Out     0.661     2.591       -         
+N_30_0_1                    Net          -        -       1.371     -           2         
+temp_RNO_5[3]               SB_LUT4      I0       In      -         3.962       -         
+temp_RNO_5[3]               SB_LUT4      O        Out     0.661     4.623       -         
+temp_RNO_5[3]               Net          -        -       1.371     -           1         
+temp_RNO_2[3]               SB_LUT4      I1       In      -         5.994       -         
+temp_RNO_2[3]               SB_LUT4      O        Out     0.589     6.583       -         
+g0_5_mb_1                   Net          -        -       1.371     -           1         
+temp_RNO_0[3]               SB_LUT4      I1       In      -         7.954       -         
+temp_RNO_0[3]               SB_LUT4      O        Out     0.589     8.543       -         
+m44_1                       Net          -        -       1.371     -           1         
+temp_RNO[3]                 SB_LUT4      I1       In      -         9.915       -         
+temp_RNO[3]                 SB_LUT4      O        Out     0.589     10.504      -         
+N_34                        Net          -        -       1.507     -           1         
+temp[3]                     SB_DFFN      D        In      -         12.011      -         
+==========================================================================================
+Total path delay (propagation time + setup) of 12.166 is 3.804(31.3%) logic and 8.362(68.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.719
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.564
+
+    - Propagation time:                      12.011
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.447
+
+    Number of logic level(s):                6
+    Starting point:                          temp_1_mulonly_0[15:0] / O[1]
+    Ending point:                            temp[3] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            coefTabl|i_sys_clk [falling] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+temp_1_mulonly_0[15:0]      SB_MAC16     O[1]     Out     0.000     0.000       -         
+temp_1[1]                   Net          -        -       0.000     -           7         
+i_N_ibuf_RNIG4QJ_4[14]      SB_LUT4      I1       In      -         0.000       -         
+i_N_ibuf_RNIG4QJ_4[14]      SB_LUT4      O        Out     0.589     0.589       -         
+N_26_0_1                    Net          -        -       1.371     -           1         
+i_N_ibuf_RNIPDBK1_0[15]     SB_LUT4      I0       In      -         1.960       -         
+i_N_ibuf_RNIPDBK1_0[15]     SB_LUT4      O        Out     0.661     2.622       -         
+N_30_0_1                    Net          -        -       1.371     -           2         
+temp_RNO_6[3]               SB_LUT4      I0       In      -         3.993       -         
+temp_RNO_6[3]               SB_LUT4      O        Out     0.661     4.654       -         
+temp_RNO_6[3]               Net          -        -       1.371     -           1         
+temp_RNO_2[3]               SB_LUT4      I2       In      -         6.025       -         
+temp_RNO_2[3]               SB_LUT4      O        Out     0.558     6.583       -         
+g0_5_mb_1                   Net          -        -       1.371     -           1         
+temp_RNO_0[3]               SB_LUT4      I1       In      -         7.954       -         
+temp_RNO_0[3]               SB_LUT4      O        Out     0.589     8.543       -         
+m44_1                       Net          -        -       1.371     -           1         
+temp_RNO[3]                 SB_LUT4      I1       In      -         9.915       -         
+temp_RNO[3]                 SB_LUT4      O        Out     0.589     10.504      -         
+N_34                        Net          -        -       1.507     -           1         
+temp[3]                     SB_DFFN      D        In      -         12.011      -         
+==========================================================================================
+Total path delay (propagation time + setup) of 12.166 is 3.804(31.3%) logic and 8.362(68.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 150MB peak: 152MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 150MB peak: 152MB)
+
+---------------------------------------
+Resource Usage Report for coefTabl 
+
+Mapping to part: ice40up5kuwg30
+Cell usage:
+SB_CARRY        42 uses
+SB_DFFN         17 uses
+SB_DFFNE        32 uses
+SB_DFFNSR       2 uses
+SB_MAC16            1 use
+  MULTONLY  1 use
+SB_LUT4         217 uses
+
+I/O ports: 83
+I/O primitives: 83
+SB_GB_IO       1 use
+SB_IO          82 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   51 (0%)
+Total load per clock:
+   coefTabl|i_sys_clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 217 (4%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 217 = 217 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 28MB peak: 152MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Tue Jun 04 10:27:17 2024
+
+###########################################################]
+
+
+Synthesis exit by 0.
+Current Implementation icecube_DFT_Implmnt its sbt path: Z:/Documents/GitHub/FPGA-closed-loop/DFT/icecube_DFT/icecube_DFT_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 14 seconds
+10:27:24 AM

@@ -1,0 +1,106 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX8KCB132 (Lattice)
+
+-----------------------------------------------------------------------
+########   Utilization report for  Top level view:   DFT_top   ########
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     472                100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block DFT_top:	472 (28.80 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       639                100 %                
+CARRYS     113                100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block DFT_top:	752 (45.88 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     407                100 %                
+=================================================
+Total IO PADS in the block DFT_top:	407 (24.83 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DFT_12s_16s_32s_5s_6s_0s_1s_2s_3s_4s   ########
+Instance path:   DFT_top.DFT_12s_16s_32s_5s_6s_0s_1s_2s_3s_4s                             
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     472                100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block DFT_top.DFT_12s_16s_32s_5s_6s_0s_1s_2s_3s_4s:	472 (28.80 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       639                100 %                
+CARRYS     113                100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block DFT_top.DFT_12s_16s_32s_5s_6s_0s_1s_2s_3s_4s:	752 (45.88 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     7                  1.72 %               
+=================================================
+Total IO PADS in the block DFT_top.DFT_12s_16s_32s_5s_6s_0s_1s_2s_3s_4s:	7 (0.43 % Utilization)
+
+---------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DFT_singleBin_12s_32s_5s_6s_0s_1s_2s_3s   ########
+Instance path:   DFT_12s_16s_32s_5s_6s_0s_1s_2s_3s_4s.DFT_singleBin_12s_32s_5s_6s_0s_1s_2s_3s
+=============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     50                 10.6 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block DFT_12s_16s_32s_5s_6s_0s_1s_2s_3s_4s.DFT_singleBin_12s_32s_5s_6s_0s_1s_2s_3s:	50 (3.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       574                89.8 %               
+CARRYS     61                 54 %                 
+===================================================
+Total COMBINATIONAL LOGIC in the block DFT_12s_16s_32s_5s_6s_0s_1s_2s_3s_4s.DFT_singleBin_12s_32s_5s_6s_0s_1s_2s_3s:	635 (38.74 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     6                  1.47 %               
+=================================================
+Total IO PADS in the block DFT_12s_16s_32s_5s_6s_0s_1s_2s_3s_4s.DFT_singleBin_12s_32s_5s_6s_0s_1s_2s_3s:	6 (0.37 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   multiplier_12s   ########   
+Instance path:   DFT_singleBin_12s_32s_5s_6s_0s_1s_2s_3s.multiplier_12s
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       134                21 %                 
+CARRYS     55                 48.7 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block DFT_singleBin_12s_32s_5s_6s_0s_1s_2s_3s.multiplier_12s:	189 (11.53 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,83 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/DFT.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/multiplier.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/DFT_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/goertzel_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module goertzel_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/goertzel_sdf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module goertzel_sdf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/goertzel_sdf_ff.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module goertzel_sdf_ff
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/DFT_ff.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_ff
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/DFT_q.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_q
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/pfTable.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pfTable
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/goertzel.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module goertzel
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/goertzel_sdf_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module goertzel_sdf_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/DFT_q_ff.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_q_ff
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/goertzel_ff.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module goertzel_ff
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/goertzel_singleBin.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module goertzel_singleBin
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CodeRepos/mSDFDFT/FPGA_VIVADO/FPGA_VIVADO.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_15
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CodeRepos/mSDFDFT/FPGA_VIVADO/FPGA_VIVADO.ip_user_files/ipstatic/simulation/fifo_generator_vlog_beh.v" into library fifo_generator_v13_2_10
+INFO: [VRFC 10-311] analyzing module fifo_generator_vlog_beh
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_CONV_VER
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_sync_stage
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_bhv_ver_as
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_beh_ver_ll_afifo
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_bhv_ver_ss
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_bhv_ver_preload0
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_axic_reg_slice
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CodeRepos/mSDFDFT/FPGA_VIVADO/FPGA_VIVADO.ip_user_files/ipstatic/hdl/fifo_generator_v13_2_rfs.v" into library fifo_generator_v13_2_10
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CodeRepos/mSDFDFT/DFT/usecase/spi_slave_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_Slave_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/usecase/spi_slave_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_slave_interface
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/usecase/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/usecase/DFT_LFP.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_LFP
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/usecase/bandpower.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bandpower
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/usecase/clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/DFT_ff_i.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_ff_i
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/multiplier_complex.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_complex
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/DFT_i.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_i
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/DFT_i_q.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_i_q
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/DFT_ff_i_q.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_ff_i_q
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/DFT_i_q_n.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_i_q_n
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/testBench/DFT_rcbi_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_rcbi_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/testBench/DFT_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/goertzel_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module goertzel_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/usecase/spi_slave_interface_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_slave_interface_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/usecase/top_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/usecase/bandpower_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bandpower_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/testBench/DFT_i_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_i_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/CodeRepos/mSDFDFT/DFT/testBench/DFT_n_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFT_n_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CodeRepos/mSDFDFT/FPGA_VIVADO/FPGA_VIVADO.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

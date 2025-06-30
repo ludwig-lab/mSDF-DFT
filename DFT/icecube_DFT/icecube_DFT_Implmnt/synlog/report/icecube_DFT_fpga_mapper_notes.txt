@@ -1,0 +1,19 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO106 :"z:\documents\github\fpga-closed-loop\dft\dft_singlebin.sv":76:28:76:48|Found ROM .delname. (in view: work.DFT_singleBin_12s_32s_5s_6s_0s_1s_2s_3s(verilog)) with 32 words by 12 bits.
+@N: MO106 :"z:\documents\github\fpga-closed-loop\dft\dft_singlebin.sv":71:28:71:44|Found ROM .delname. (in view: work.DFT_singleBin_12s_32s_5s_6s_0s_1s_2s_3s(verilog)) with 32 words by 12 bits.
+@N: MF180 :"z:\documents\github\fpga-closed-loop\dft\dft_singlebin.sv":65:26:65:33|Generating type mult multiplier 
+@N: MF180 :"z:\documents\github\fpga-closed-loop\dft\multiplier.sv":13:18:13:27|Generating type smult multiplier 
+@N: FX1016 :"z:\documents\github\fpga-closed-loop\dft\dft_top.sv":17:10:17:18|SB_GB_IO inserted on the port i_sys_clk.
+@N: FX1017 :"z:\documents\github\fpga-closed-loop\dft\dft.sv":76:4:76:9|SB_GB inserted on the net DFT.singleBin_reset.
+@N: FX1017 :|SB_GB inserted on the net DFT.N_773_0.
+@N: FX1017 :|SB_GB inserted on the net DFT.N_778_0.
+@N: FX1017 :|SB_GB inserted on the net DFT.N_781_0.
+@N: FX1017 :|SB_GB inserted on the net DFT.N_784_0.
+@N: FX1017 :|SB_GB inserted on the net DFT.N_790_0.
+@N: FX1017 :|SB_GB inserted on the net DFT.N_795_0.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: Z:\Documents\GitHub\FPGA-closed-loop\DFT\icecube_DFT\icecube_DFT_Implmnt\icecube_DFT.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
